@@ -15,7 +15,7 @@ const Hero = () => {
           {/* Main content */}
           <div className="mb-6">
             <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent animate-slide-up">
-              Álvaro Cáceres
+              Alvaro Cáceres
             </h1>
             <h2 className="text-2xl md:text-3xl font-light text-muted-foreground mb-6">
               {t('hero.title')}
