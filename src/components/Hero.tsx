@@ -40,9 +40,12 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="glass-card hover:bg-white/10"
+              asChild
             >
-              <Download className="mr-2 h-5 w-5" />
-              {t('hero.downloadCV')}
+              <a href="/CV_AJ_2025_ESP.pdf" download="CV_Alvaro_Caceres.pdf">
+                <Download className="mr-2 h-5 w-5" />
+                {t('hero.downloadCV')}
+              </a>
             </Button>
           </div>
 
