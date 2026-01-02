@@ -3,7 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
@@ -42,7 +42,10 @@ const Hero = () => {
               className="glass-card hover:bg-white/10"
               asChild
             >
-              <a href="/CV_AJ_2025_ESP.pdf" download="CV_Alvaro_Caceres.pdf">
+              <a 
+                href={language === 'es' ? '/CV_AJ_2025_ESP.pdf' : '/CV_AJ_2025_ENG.pdf'} 
+                download={`CV_Alvaro_Caceres_${language.toUpperCase()}.pdf`}
+              >
                 <Download className="mr-2 h-5 w-5" />
                 {t('hero.downloadCV')}
               </a>
