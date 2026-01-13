@@ -90,11 +90,14 @@ const translations = {
     
     // Footer
     'footer.rights': 'Todos los derechos reservados.',
+
+    // Personal
+    'person.name': 'Alvaro Cáceres',
   },
   en: {
     // Navbar
     'nav.home': 'Home',
-    'nav.about': 'About',
+    'nav.about': 'About me',
     'nav.experience': 'Experience',
     'nav.projects': 'Projects',
     'nav.education': 'Education',
@@ -172,6 +175,9 @@ const translations = {
     
     // Footer
     'footer.rights': 'All rights reserved.',
+
+    // Personal
+    'person.name': 'Alvaro Caceres',
   },
 };
 

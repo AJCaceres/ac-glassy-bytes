@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-muted-foreground">
-            © {currentYear} Alvaro Cáceres. {t('footer.rights')}
+            © {currentYear} {t('person.name')}. {t('footer.rights')}
           </p>
         </div>
       </div>

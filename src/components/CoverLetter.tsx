@@ -14,7 +14,7 @@ const CoverLetter = () => {
           <div className="pt-4">
             <p className="text-lg mb-2">{t('coverLetter.closing')}</p>
             <p className="text-xl font-semibold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Alvaro Cáceres
+              {t('person.name')}
             </p>
           </div>
         </div>
