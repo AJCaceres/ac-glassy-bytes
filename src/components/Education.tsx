@@ -7,6 +7,11 @@ const Education = () => {
 
   const education = [
     {
+      titleKey: 'education.degree3.title',
+      institutionKey: 'education.degree3.institution',
+      period: '2026',
+    },
+    {
       titleKey: 'education.degree1.title',
       institutionKey: 'education.degree1.institution',
       period: '2016 - 2022',
