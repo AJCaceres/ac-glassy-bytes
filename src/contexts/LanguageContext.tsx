@@ -58,6 +58,8 @@ const translations = {
     
     // Education
     'education.title': 'Educación',
+    'education.degree3.title': 'Maestría en Inteligencia Artificial',
+    'education.degree3.institution': 'Visual Business School',
     'education.degree1.title': 'Ingeniería Industrial y en Sistemas',
     'education.degree1.institution': 'Universidad Rafael Landívar',
     'education.degree2.title': 'Bachiller en Ciencias y Letras',
@@ -143,6 +145,8 @@ const translations = {
     
     // Education
     'education.title': 'Education',
+    'education.degree3.title': "Master's in Artificial Intelligence",
+    'education.degree3.institution': 'Visual Business School',
     'education.degree1.title': 'Industrial and Systems Engineering',
     'education.degree1.institution': 'Universidad Rafael Landívar',
     'education.degree2.title': 'Bachelor of Science and Letters',
